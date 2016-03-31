@@ -1,11 +1,14 @@
+IdentityFile ~/.ssh/id_rsa
+IdentityFile ~/.ssh/github_rsa
+
 Host playground
     HostName playground.jarnot.com
     User kevin
 
 Host cms1
     HostName 172.16.16.211
-    User kevin
+    User kjarnot
 
 Host cms2
     HostName 172.16.16.212
-    User kevin
+    User kjarnot
