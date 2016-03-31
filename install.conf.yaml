@@ -1,3 +1,7 @@
+- defaults:
+    link:
+        relink: true
+
 - clean: ['~']
 
 - link:
@@ -12,8 +16,9 @@
     ~/bin:
         path: bin/
         create: true
-    ~/.oh-my-zsh:
+    ~/.oh-my-zsh: 
         path: oh-my-zsh/
         create: true
 
-
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
