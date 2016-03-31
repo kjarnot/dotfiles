@@ -1,0 +1,11 @@
+Host playground
+    HostName playground.jarnot.com
+    User kevin
+
+Host cms1
+    HostName 172.16.16.211
+    User kevin
+
+Host cms2
+    HostName 172.16.16.212
+    User kevin
