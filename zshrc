@@ -50,7 +50,7 @@ ZSH_THEME="risto"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git common-aliases osx jira macports node npm python sublime web-search wd z)
+plugins=(git common-aliases osx python sublime wd)
 
 # User configuration
 #
