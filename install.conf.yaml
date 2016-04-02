@@ -12,7 +12,7 @@
         create: true
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
-    ~/.vim
+    ~/.vim:
         path: vim/
         create: true
     ~/.zshrc: zshrc
