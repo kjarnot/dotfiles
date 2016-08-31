@@ -81,3 +81,6 @@ colors
 setopt ignoreeof
 export EDITOR=vi
 export CLICOLOR=1
+
+# 10ms for key sequences
+KEYTIMEOUT=1

@@ -12,3 +12,11 @@ Host cms1
 Host cms2
     HostName 172.16.16.212
     User kjarnot
+
+Host word
+    HostName word.thematrix.local
+    User kjarnot
+
+Host double
+    HostName double.thematrix.local
+    User kjarnot
