@@ -1,22 +1,3 @@
 IdentityFile ~/.ssh/id_rsa
 IdentityFile ~/.ssh/github_rsa
 
-Host playground
-    HostName playground.jarnot.com
-    User kevin
-
-Host cms1
-    HostName 172.16.16.211
-    User kjarnot
-
-Host cms2
-    HostName 172.16.16.212
-    User kjarnot
-
-Host word
-    HostName word.thematrix.local
-    User kjarnot
-
-Host double
-    HostName double.thematrix.local
-    User kjarnot
