@@ -1,3 +1,9 @@
 IdentityFile ~/.ssh/id_rsa
 IdentityFile ~/.ssh/github_rsa
 
+host bitbucket.org
+    Hostname bitbucket.org
+    IdentityFile ~/.ssh/jarnot-mn
+    User jarnot-mn
+
+
