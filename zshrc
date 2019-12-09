@@ -56,11 +56,11 @@ plugins=(git common-aliases osx python sublime wd)
 #
 export PATH=${PATH}:/opt/local/bin:/opt/local/sbin:
 
+# Visual Studio Code
+export PATH=${PATH}:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+
 # texlive
 export PATH=${PATH}:/usr/local/texlive/2012/bin/x86_64-darwin:/usr/texbin
-
-# Goodsync on OS X
-#export PATH=${PATH}:/Users/kevinjarnot/Library/Application Support/GoodSync
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,3 +84,14 @@ export CLICOLOR=1
 
 # 10ms for key sequences
 KEYTIMEOUT=1
+
+git_rev ()
+{
+    d=`date +%Y%m%d`
+    c=`git rev-list --full-history --all --abbrev-commit | wc -l | sed -e 's/^ *//'`
+    h=`git rev-list --full-history --all --abbrev-commit | head -1`
+    echo ${c}:${h}:${d}
+}
+
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/node@10/bin:$PATH"

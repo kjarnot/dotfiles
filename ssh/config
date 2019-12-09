@@ -5,18 +5,10 @@ Host playground
     HostName playground.jarnot.com
     User kevin
 
-Host cms1
-    HostName 172.16.16.211
-    User kjarnot
+Host jarnot
+    HostName home104325680.1and1-data.host
+    User u36459460
 
-Host cms2
-    HostName 172.16.16.212
-    User kjarnot
-
-Host word
-    HostName word.thematrix.local
-    User kjarnot
-
-Host double
-    HostName double.thematrix.local
-    User kjarnot
+Host git-codecommit.*.amazonaws.com
+    User APKAIGQE4V5WYRV7IEGA
+    IdentityFile ~/.ssh/id_rsa
