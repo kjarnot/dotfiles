@@ -1,9 +1,10 @@
 IdentityFile ~/.ssh/id_rsa
 IdentityFile ~/.ssh/github_rsa
 
-Host playground
-    HostName playground.jarnot.com
-    User kevin
+host bitbucket.org
+    Hostname bitbucket.org
+    IdentityFile ~/.ssh/jarnot-mn
+    User jarnot-mn
 
 Host jarnot
     HostName home104325680.1and1-data.host
