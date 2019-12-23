@@ -6,7 +6,12 @@ export ZSH=~/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="risto"
+#ZSH_THEME="risto"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+#POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_COLOR_SCHEME='dark'
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vcs dir rbenv)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs status load)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
