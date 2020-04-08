@@ -12,6 +12,7 @@
         create: true
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.babelrc: babelrc
     ~/.vim:
         path: vim/
         create: true
@@ -22,6 +23,7 @@
     ~/.oh-my-zsh: 
         path: oh-my-zsh/
         create: true
+    ~/.p10k.zsh: p10k.zsh
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
